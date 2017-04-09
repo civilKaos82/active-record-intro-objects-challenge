@@ -1,2 +1,2 @@
-class Rating < ActiveRecord::Base
+class Rating < ApplicationRecord
 end
