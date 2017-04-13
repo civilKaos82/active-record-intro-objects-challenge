@@ -1,4 +1,4 @@
-#Active Record Intro:  Objects
+# Active Record Intro:  Objects
 
 ## Summary
 In this challenge, we're going to explore the instance methods available to instances of our Active Record models.  Up to this point, we've primarily been working with class methods for retrieving data from the database and writing data to the database.  We've only touched a couple of instance methods (e.g., `#save`).  In this challenge we'll take a look at what we can do with objects after we instantiate them.
