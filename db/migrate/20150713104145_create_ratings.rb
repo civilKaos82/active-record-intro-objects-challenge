@@ -6,7 +6,7 @@ class CreateRatings < ActiveRecord::Migration[5.0]
       t.integer :rater_id
       t.integer :dog_id
 
-      t.timestamps(null: false)
+      t.timestamps
     end
   end
 end
