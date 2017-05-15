@@ -1,4 +1,4 @@
-class CreateDogs < ActiveRecord::Migration
+class CreateDogs < ActiveRecord::Migration[5.0]
   def change
     create_table :dogs do |t|
       t.string   :name
@@ -7,7 +7,7 @@ class CreateDogs < ActiveRecord::Migration
       t.integer  :weight
       t.integer  :owner_id
 
-      t.timestamps(null: false)
+      t.timestamps
     end
   end
 end

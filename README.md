@@ -4,13 +4,13 @@
 In this challenge, we're going to explore the instance methods available to instances of our Active Record models.  Up to this point, we've primarily been working with class methods for retrieving data from the database and writing data to the database.  We've only touched a couple of instance methods (e.g., `#save`).  In this challenge we'll take a look at what we can do with objects after we instantiate them.
 
 ```ruby
-class Dog < ActiveRecord::Base
+class Dog < ApplicationRecord
 end
 ```
 
 *Figure 1.*  Code for the class `Dog`.
 
-We will be working primarily with a pre-written, empty `Dog` class (see Figure 1 and the file `app/models/dog.rb`).  There are no methods defined within the class itself.  The behaviors that we'll explore in this challenge are inherited through its parent class, `ActiveRecord::Base`.  
+We will be working primarily with a pre-written, empty `Dog` class (see Figure 1 and the file `app/models/dog.rb`).  There are no methods defined within the class itself.  The behaviors that we'll explore in this challenge are inherited through its parent class, `ApplicationRecord`.  
 
 
 ## Releases

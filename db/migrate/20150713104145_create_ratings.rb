@@ -1,4 +1,4 @@
-class CreateRatings < ActiveRecord::Migration
+class CreateRatings < ActiveRecord::Migration[5.0]
   def change
     create_table :ratings do |t|
       t.integer :coolness
@@ -6,7 +6,7 @@ class CreateRatings < ActiveRecord::Migration
       t.integer :rater_id
       t.integer :dog_id
 
-      t.timestamps(null: false)
+      t.timestamps
     end
   end
 end
